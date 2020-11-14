@@ -7,7 +7,7 @@ public class PageRank {
 
     private String fileName = "";
     private double epsilon; // approximation
-    private double beta = 0.85;  // teleportation
+    private double beta = 0.25;  // teleportation
     private HashMap<String, ArrayList<String>> pageRankGraph = new HashMap<>();
     private HashMap<String, Integer> stringToInt = new HashMap<>();
     private HashMap<Integer, String> intToString = new HashMap<>();
