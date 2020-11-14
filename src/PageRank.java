@@ -237,11 +237,6 @@ public class PageRank {
             indices[i] = (Integer) list.get(i).getKey();
         }
 
-        //here we have result, to test it:
-//        for (final int element : indices) {
-//            System.out.println(element);
-//        }
-
         for (int i = 0; i < k; i++) {
             stringRank[i] = intToString.get(indices[i]);
         }
